@@ -1,0 +1,4 @@
+#!/bin/sh
+
+find example -name '*.js' -exec node {} \;
+tape test/*.js
