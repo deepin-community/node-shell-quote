@@ -1,3 +1,19 @@
+node-shell-quote (1.7.4+~1.7.1-1+deb13u2) trixie-security; urgency=medium
+
+  * Team upload
+  * Reject line terminators in tokens after a comment
+    (Closes: #1149713, CVE-2026-102422)
+  * Finalize parse tokens in linear time (Closes: #1140921, CVE-2026-13311)
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 06 Oct 2026 11:29:23 +0200
+
+node-shell-quote (1.7.4+~1.7.1-1+deb13u1) trixie-security; urgency=medium
+
+  * Team upload
+  * Validate object-token shapes (Closes: #1137372, CVE-2026-9277)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 23 May 2026 11:56:08 +0200
+
 node-shell-quote (1.7.4+~1.7.1-1) unstable; urgency=medium
 
   * Team upload
